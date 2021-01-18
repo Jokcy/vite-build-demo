@@ -1,0 +1,55 @@
+Arguments: 
+  /Users/jokcylou/.nvm/versions/node/v14.1.0/bin/node /Users/jokcylou/.yarn/bin/yarn.js add @mdxjs/mdx -D
+
+PATH: 
+  /Users/jokcylou/tools/flutter/bin:/Users/jokcylou/Library/Python/2.7/bin:/Users/jokcylou/.yarn/bin:/Users/jokcylou/.config/yarn/global/node_modules/.bin:/Users/jokcylou/.nvm/versions/node/v14.1.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/jokcylou/tools/flutter/bin:/Users/jokcylou/Library/Python/2.7/bin:/Users/jokcylou/.yarn/bin:/Users/jokcylou/.config/yarn/global/node_modules/.bin:/Users/jokcylou/.nvm/versions/node/v14.1.0/bin
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  14.1.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: http://registry-npm.wanwudezhi.work/@mdxjs%2fmdx: Not found
+      at Request.params.callback [as _callback] (/Users/jokcylou/.yarn/lib/cli.js:66947:18)
+      at Request.self.callback (/Users/jokcylou/.yarn/lib/cli.js:140665:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (/Users/jokcylou/.yarn/lib/cli.js:141637:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (/Users/jokcylou/.yarn/lib/cli.js:141559:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1223:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+      "name": "test-vite",
+      "version": "0.0.0",
+      "scripts": {
+          "dev": "vite",
+          "build": "vuedx-typecheck . && vite build"
+      },
+      "dependencies": {
+          "vue": "^3.0.5"
+      },
+      "devDependencies": {
+          "@vitejs/plugin-vue-jsx": "^1.0.1",
+          "@vitejs/plugin-vue": "^1.0.4",
+          "@vue/compiler-sfc": "^3.0.5",
+          "@vuedx/typecheck": "^0.4.1",
+          "@vuedx/typescript-plugin-vue": "^0.4.1",
+          "typescript": "^4.1.3",
+          "vite": "^2.0.0-beta.4"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
